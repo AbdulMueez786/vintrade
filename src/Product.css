@@ -1,0 +1,69 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    max-height: 450px;
+    min-width: 100px;
+    justify-content: flex-end;
+    margin:10px;
+    z-index: 1;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+
+}
+.button3 {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    /*border: gold;
+    border-style: solid;*/
+  }
+  .qty{
+    border: black;
+    border-style: solid;
+  }
+  .button2 {
+      margin: 10px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.product>a>img{
+    cursor: pointer;
+    size: 100px;
+}
+.product>a>img:hover{
+    transform:scale(1.09);
+}
+
+.product__rating{
+    display: flex;
+}
+.product__info{
+    height:100px;
+    flex-direction: column;
+}   
+
+
+
+.product__price{
+    margin-top:5px;
+}
+.product>.MuiButton-colorInherit{
+    background-color: #f0c14b;
+    border:1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:#111; 
+}

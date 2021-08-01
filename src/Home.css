@@ -1,0 +1,21 @@
+.Home{
+    max-width:1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(234,237,237);
+}
+.Home_image_Fade{
+    mask-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+}
+.Home__image{
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+   margin-bottom: -150px;
+}
+
+.Home__row{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  input {
+    height:30px;
+    padding: 10px;
+    border:none;
+    width: 800px;
+  }
+  
+  .no-suggestions {
+    color: #999;
+    padding: 0.5rem;
+  }
+  
+  .suggestions {
+    background-color: antiquewhite;
+    border: 1px solid #999;
+    border-top-width: 0;
+    list-style: none;
+    margin-top: 0;
+    max-height: 140px;
+    text-size-adjust: 10px;
+    text-overflow: #000000;
+    overflow-y: auto;
+    width: 800px;
+    padding-left: 0;
+    /*width: calc(300px + 1rem);*/
+  }
+  
+  .suggestions li {
+    padding: 0.5rem;
+  }
+  
+  .suggestion-active,
+  .suggestions li:hover {
+    background-color: #008f68;
+    color: #fae042;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .suggestions :out-of-range{
+      background-color: black;
+  }
+  .suggestions li:not(:last-of-type) {
+    border-bottom: 1px solid #999;
+  }

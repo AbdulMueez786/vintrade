@@ -1,0 +1,14 @@
+.successfullyDone{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.successfullyDone_image{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 40px;
+}
