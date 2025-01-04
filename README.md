@@ -1,3 +1,6 @@
+This repository was originally created on https://github.com/AbdulMueez786/vintrade/ and is now also available here in my secound account: https://github.com/AMG786/vintrade/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
